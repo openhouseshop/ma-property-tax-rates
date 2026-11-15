@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "dataset": "MA municipal property tax billing schedules \u2014 verified pilot",
+  "updated_on": "2026-11-14",
+  "description": "Only individually verified municipal sources; no statewide default.",
+  "municipalities": {
+    "Boston": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.boston.gov/departments/tax-collection/how-pay-your-real-estate-taxes",
+      "verified_on": "2026-11-14"
+    },
+    "Duxbury": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.town.duxbury.ma.us/treasurercollectors-office/files/tax-collection-procedures",
+      "verified_on": "2026-11-14"
+    },
+    "Brookline": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.brooklinema.gov/3915/Real-Estate-Tax",
+      "verified_on": "2026-11-14"
+    },
+    "Taunton": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.taunton-ma.gov/312/Real-Estate-Tax",
+      "verified_on": "2026-11-14"
+    },
+    "Somerville": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.somervillema.gov/departments/finance/treasurer-collector",
+      "verified_on": "2026-11-14"
+    },
+    "Natick": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.natickma.gov/DocumentCenter/View/19305/FAQ---Tax-Title-and-RE-Taxes",
+      "verified_on": "2026-11-14"
+    }
+  }
+}
