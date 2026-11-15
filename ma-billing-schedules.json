@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "dataset": "MA municipal property tax billing schedules \u2014 verified pilot",
+  "dataset": "Massachusetts municipal property tax billing schedules \u2014 verified expansion",
   "updated_on": "2026-11-14",
-  "description": "Only individually verified municipal sources; no statewide default.",
+  "description": "Municipality-specific verified billing frequencies only; absence means unverified, not quarterly. Quarterly dates are nominal and may shift.",
   "municipalities": {
     "Boston": {
       "status": "verified",
@@ -39,6 +39,71 @@
       "frequency": "quarterly",
       "source_url": "https://www.natickma.gov/DocumentCenter/View/19305/FAQ---Tax-Title-and-RE-Taxes",
       "verified_on": "2026-11-14"
+    },
+    "Pembroke": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.pembroke-ma.gov/m/faq?cat=22",
+      "verified_on": "2026-11-14",
+      "standard_due_dates": [
+        "08-01",
+        "11-01",
+        "02-01",
+        "05-01"
+      ],
+      "notes": "Due dates may shift for weekends/holidays; preliminary and actual installment amounts can differ."
+    },
+    "Plymouth": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.plymouth-ma.gov/801/Treasurer-Collector",
+      "verified_on": "2026-11-14",
+      "standard_due_dates": [
+        "08-01",
+        "11-01",
+        "02-01",
+        "05-01"
+      ],
+      "notes": "Due dates may shift for weekends/holidays; preliminary and actual installment amounts can differ."
+    },
+    "Scituate": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.scituatema.gov/1488/Important-Tax-Information",
+      "verified_on": "2026-11-14",
+      "standard_due_dates": [
+        "08-01",
+        "11-01",
+        "02-01",
+        "05-01"
+      ],
+      "notes": "Due dates may shift for weekends/holidays; preliminary and actual installment amounts can differ."
+    },
+    "Weymouth": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://weymouth.ma.us/1835/Collector",
+      "verified_on": "2026-11-14",
+      "standard_due_dates": [
+        "08-01",
+        "11-01",
+        "02-01",
+        "05-01"
+      ],
+      "notes": "Due dates may shift for weekends/holidays; preliminary and actual installment amounts can differ."
+    },
+    "Hanover": {
+      "status": "verified",
+      "frequency": "quarterly",
+      "source_url": "https://www.hanover-ma.gov/sites/g/files/vyhlif12081/f/uploads/fy22_audited_financial_statements.pdf",
+      "verified_on": "2026-11-14",
+      "standard_due_dates": [
+        "08-01",
+        "11-01",
+        "02-01",
+        "05-01"
+      ],
+      "notes": "Due dates may shift for weekends/holidays; preliminary and actual installment amounts can differ."
     }
   }
 }
