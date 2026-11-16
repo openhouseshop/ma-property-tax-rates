@@ -14,7 +14,7 @@
     2026,
     2027
   ],
-  "missing_rate_meaning": "Not published in source export; do not substitute prior year automatically",
+  "missing_rate_meaning": "Not published in the source export; the calculator may use the latest available prior-year rate as a clearly labeled estimate, not as a verified current-year rate.",
   "municipalities": {
     "Abington": {
       "dor_code": "001",
@@ -3536,5 +3536,41 @@
         "2027": null
       }
     }
+  },
+  "town_name_aliases": {
+    "Manchester-by-the-Sea": "Manchester By The Sea",
+    "Manchester by the Sea": "Manchester By The Sea"
+  },
+  "data_quality_review": {
+    "reviewed_on": "2026-11-15",
+    "note": "All rates preserved exactly from original DLS-derived file. Large changes flagged for source review, not corrected without official evidence.",
+    "fy2025_to_fy2026_changes_over_20_percent": [
+      {
+        "municipality": "Georgetown",
+        "fy2025": 11.06,
+        "fy2026": 13.76,
+        "change_percent": 24.41
+      }
+    ],
+    "fy2024_to_fy2025_changes_over_20_percent": [
+      {
+        "municipality": "Monroe",
+        "fy2024": 11.36,
+        "fy2025": 8.99,
+        "change_percent": -20.86
+      },
+      {
+        "municipality": "New Ashford",
+        "fy2024": 8.48,
+        "fy2025": 5.66,
+        "change_percent": -33.25
+      },
+      {
+        "municipality": "Savoy",
+        "fy2024": 13.24,
+        "fy2025": 16.62,
+        "change_percent": 25.53
+      }
+    ]
   }
 }
